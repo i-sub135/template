@@ -12,9 +12,6 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" href="public/easyui/themes/default/easyui.css">
-    <link rel="stylesheet" href="public/easyui/themes/color.css">
-    <script src="public/easyui/jquery.easyui.min.js"></script>
     <link rel="stylesheet" href="public/css/page-custom.css">
     
     <style>

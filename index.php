@@ -10,6 +10,8 @@
     <script src="public/js/jquery-3.3.1.min.js" type="text/javascript" ></script>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="public/css/page-custom.css">
     
     <style>
         .material-icons {vertical-align:-30%}
