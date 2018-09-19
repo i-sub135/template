@@ -1,0 +1,89 @@
+
+#bg1 , #bg2, #bg3, #bg4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#bg1{
+    background-color:#455a64;
+    z-index: -1;
+    -webkit-clip-path: polygon(23% 0, 48% 50%, 23% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(23% 0, 48% 50%, 23% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+#bg2{
+    background-color: #90a4ae;
+    z-index: -2;
+    -webkit-clip-path: polygon(23% 0, 35% 51%, 23% 100%, 0% 100%, 11% 51%, 0% 0%);
+    clip-path: polygon(23% 0, 35% 51%, 23% 100%, 0% 100%, 11% 51%, 0% 0%);
+}
+#bg3{
+    background-color: #e0e0e0;
+    z-index: -3;
+    -webkit-clip-path: polygon(23% 0, 23% 51%, 23% 100%, 0% 100%, 0 53%, 0% 0%);
+    clip-path: polygon(23% 0, 23% 51%, 23% 100%, 0% 100%, 0 53%, 0% 0%);
+}
+#bg4{
+    background-color : #90a4ae;
+    z-index: -4;
+    -webkit-clip-path: polygon(89% 0, 100% 0%, 100% 100%, 50% 100%);
+    clip-path: polygon(89% 0, 100% 0%, 100% 100%, 50% 100%);
+}
+
+#top-nav{
+    background-color: #90a4ae;
+    color: aliceblue;
+}
+
+
+#bottom-nav{
+    background-color: #455a64;
+    color: aliceblue;
+}
+
+#pt-title{
+    background-color: #455a64;
+    color: white;
+    padding: 10px;
+}
+
+/* Login  */
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #455a64;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+/* endLogin */
